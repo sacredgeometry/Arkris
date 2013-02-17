@@ -1,5 +1,5 @@
 //
-//  CreateSyphonServer.h
+//  ikoSyphonServertextureSource.h
 //  Arkris
 //
 //  Created by Brian Williams on 17/02/2013.
@@ -7,10 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Syphon/Syphon.h>
 
-@interface CreateSyphonServer : NSObject
+@interface ikoSyphonServertextureSource : NSObject
 
-
-+(void) runServer;
 @end

@@ -8,6 +8,24 @@
 
 #import "CreateSyphonServer.h"
 
+
 @implementation CreateSyphonServer
+
+-(id)init{
+    self = [super self];
+    if(self){
+        // INIT        
+//        SyphonServer *myServer = [[SyphonServer alloc] initWithName:@"My Output"
+//                                                            context:myContext
+//                                                            options:nil];
+        
+        
+    }
+    return self;
+}
+
++(void)runServer{
+    
+}
 
 @end

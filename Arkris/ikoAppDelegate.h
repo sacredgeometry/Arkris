@@ -10,6 +10,8 @@
 
 @interface ikoAppDelegate : NSObject <NSApplicationDelegate>
 
+
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet SyphonServerGLView * glViewOut ;
 
 @end
