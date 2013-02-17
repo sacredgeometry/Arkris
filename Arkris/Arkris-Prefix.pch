@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Arkris' target in the 'Arkris' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
